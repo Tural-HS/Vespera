@@ -6,15 +6,14 @@ import TextSplit from "../Reuseable/TextSplit";
 const SingleSlideOne = ({ slider = {}, showShape = false }) => {
   const { bg, title, href } = slider;
 
-  const bgPath = `url(${require(`@/images/backgrounds/${bg}`).default.src
-    })`;
-
   return (
     <>
       <div
         className="image-layer"
         style={{
-          backgroundImage: bgPath,
+          backgroundImage: `url(${
+            require(`@/images/backgrounds/${bg}`).default.src
+          })`,
         }}
       ></div>
 
@@ -31,7 +30,7 @@ const SingleSlideOne = ({ slider = {}, showShape = false }) => {
           <Col xl={showShape ? 7 : 12}>
             <div className="main-slider__content" >
               <h2>
-                <TextSplit text={title} />
+                <TextSplit text={title}/>
               </h2>
               <Link href={href} className="thm-btn">
                 Discover  More

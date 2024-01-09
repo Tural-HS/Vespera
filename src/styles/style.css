@@ -1460,6 +1460,9 @@ input[type="search"]::-webkit-search-results-decoration {
   margin-bottom: 40px;
   display: flex;
 }
+.mobile-nav__content .logo-box img {
+  filter: grayscale(100%) brightness(1000%) contrast(80%);
+}
 
 .mobile-nav__close {
   position: absolute;
