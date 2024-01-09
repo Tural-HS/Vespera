@@ -6,7 +6,7 @@ import bg from "@/images/shapes/welcome-one-shape.png";
 export const welcomeOne = {
   bg,
   videoBg,
-  tagline: "welcome to our agency",
+  tagline: "welcome to Vespera",
   title: "Driving Progress, Building Trust Through Our Deeply Rooted Legacy ",
   counter: [
     {
